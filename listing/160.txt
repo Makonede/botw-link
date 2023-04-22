@@ -79258,6 +79258,7 @@
 0x02129B78 sub_2129B78_________UKING_160_CHANGE_ME
 0x02CBF648 _ZN4sead9ThreadMgr9sInstanceE
 0x02CBF658 _ZN4sead13ControllerMgr9sInstanceE
+0x02CBF798 _ZN4sead12GlobalRandom9sInstanceE
 0x02CC56D8 _ZN4ksys3evt7Manager9sInstanceE
 0x02D66008 __nnmusl_fini_dso
 0x02D66010 __nnmusl_init_dso
