@@ -79,14 +79,8 @@ for key in ["linker_config_dir", "output", "elf", "nso", "make_args", "ignored_s
         print_error(f"fatal: Config file \"{CONFIG_PATH}\" is missing \"{key}\"")
         exit(5)
 
-import platform
-match platform.system():
-    case "Windows":
-        config["make_args"][0] %= "%NUMBER_OF_PROCESSORS%"
-    case "Darwin":
-        config["make_args"][0] %= "`sysctl -n hw.logicalcpu`"
-    case _:
-        config["make_args"][0] %= "`nproc`"
+import multiprocessing
+config["make_args"][0] %= multiprocessing.cpu_count()
 
 context = Context(
     print if args.verbose else lambda *_args, **_kwargs: None,
