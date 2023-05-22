@@ -1,3 +1,4 @@
+0x00000000 _ZN4botw6MemoryE
 0x00000030 _init_proc
 0x00000170 _term_proc
 0x000001E0 __nnDetailNintendoSdkRuntimeObjectFileRefer
