@@ -222,6 +222,8 @@ class Build:
                 
                 for i, suggestion in enumerate(suggestions):
                     print(f"  {i+1}. {suggestion}")
+
+            sys.exit()
         else:
             print_good("BUILD SUCCESS")
 
