@@ -3,6 +3,7 @@ PROVIDE_HIDDEN(__nnDetailNintendoSdkRuntimeObjectFileRefer = 0x000001E0 - 0x3483
 PROVIDE_HIDDEN(nndetailRoGetRoDataStart = 0x000001F0 - 0x3483000);
 PROVIDE_HIDDEN(nndetailRoGetRoDataEnd = 0x00000200 - 0x3483000);
 PROVIDE_HIDDEN(__nnDetailNintendoSdkRuntimeObjectFile = 0x00000210 - 0x3483000);
+PROVIDE_HIDDEN(_ZN5uking2ai14LumberjackTree6enter_EPN4ksys3act2ai15InlineParamPackE = 0x007D97C0 - 0x3483000);
 PROVIDE_HIDDEN(RootTask__calc = 0x00E3A2F0 - 0x3483000);
 PROVIDE_HIDDEN(nninitStartup = 0x00E536D0 - 0x3483000);
 PROVIDE_HIDDEN(nnMain = 0x00E53710 - 0x3483000);
